@@ -89,7 +89,7 @@ function $getNewStudentTR(studObj) {
     const $tdDelete = document.createElement("td")
     const $btnDelete = document.createElement("button")
 
-    $btnDelete.classList.add("btn", "btn-danger", "w-100")
+    $btnDelete.classList.add("btn", "btn-outline-danger", "w-100")
     $btnDelete.textContent = "Удалить"
 
     $tdFIO.textContent = `${studObj.lastname} ${studObj.name} ${studObj.surname}`
